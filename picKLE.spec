@@ -9,6 +9,7 @@ Source0:	http://dl.sourceforge.net/picklegallery/%{name}-%{version}.tar.gz
 # Source0-md5:	
 Source1:	%{name}.conf
 URL:		http://picklegallery.sourceforge.net/
+Requires:	ImageMagick
 Requires:	php
 Requires:	webserver
 BuildArch:	noarch
