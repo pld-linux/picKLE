@@ -24,7 +24,7 @@ thumbnails and resampled images on the fly and caches them.
 It is made to be extremely simple to install/configure.
 
 %description -l pl
-picKLE jest to system galeriowy oparty na PHP. Genreuje w locie 
+picKLE jest to system galeriowy oparty na PHP. Generuje w locie 
 miniaturki i pomniejszone zdjêcia, po czym zapisuje je w katalogu cache.
 Dodatkowo wyró¿nia siê bardzo ³atw± instalacj± oraz konfiguracj±.
 
