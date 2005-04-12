@@ -6,7 +6,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications/WWW
 Source0:	http://dl.sourceforge.net/picklegallery/%{name}-%{version}.tar.gz
-# Source0-md5:	
+# Source0-md5:	6e089d56af3509d3085e727a3496f6b1
 Source1:	%{name}.conf
 URL:		http://picklegallery.sourceforge.net/
 Requires:	ImageMagick
@@ -76,8 +76,8 @@ fi
 %defattr(644,root,root,755)
 %doc TODO INSTALL KNOWN-BUGS CHANGELOG
 %dir %{_sysconfdir}
-%attr(640,root,http) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/*
-%config(noreplace) %verify(not size mtime md5) /etc/httpd/%{name}.conf
+%attr(640,root,http) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
+%config(noreplace) %verify(not md5 mtime size) /etc/httpd/%{name}.conf
 %dir %{_pickledir}
 %{_pickledir}/picKLE-*
 %{_pickledir}/*.php
