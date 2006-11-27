@@ -1,3 +1,5 @@
+# TODO
+# - webapps
 Summary:	Image gallery system created in PHP
 Summary(pl):	System galeriowy oparty na PHP
 Name:		picKLE
@@ -10,8 +12,8 @@ Source0:	http://dl.sourceforge.net/picklegallery/%{name}-%{version}.tar.gz
 Source1:	%{name}.conf
 URL:		http://picklegallery.sourceforge.net/
 Requires:	ImageMagick
-Requires:	php
 Requires:	webserver
+Requires:	webserver(php)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -19,14 +21,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_sysconfdir	/etc/%{name}
 
 %description
-picKLE is an image gallery system created in PHP. It generates 
-thumbnails and resampled images on the fly and caches them. 
-It is made to be extremely simple to install/configure.
+picKLE is an image gallery system created in PHP. It generates
+thumbnails and resampled images on the fly and caches them. It is made
+to be extremely simple to install/configure.
 
 %description -l pl
-picKLE jest to system galeriowy oparty na PHP. Generuje w locie 
-miniaturki i pomniejszone zdjêcia, po czym zapisuje je w katalogu cache.
-Dodatkowo wyró¿nia siê bardzo ³atw± instalacj± oraz konfiguracj±.
+picKLE jest to system galeriowy oparty na PHP. Generuje w locie
+miniaturki i pomniejszone zdjêcia, po czym zapisuje je w katalogu
+cache. Dodatkowo wyró¿nia siê bardzo ³atw± instalacj± oraz
+konfiguracj±.
 
 %prep
 %setup -q
