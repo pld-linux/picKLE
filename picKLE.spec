@@ -1,7 +1,7 @@
 # TODO
 # - webapps
 Summary:	Image gallery system created in PHP
-Summary(pl):	System galeriowy oparty na PHP
+Summary(pl.UTF-8):   System galeriowy oparty na PHP
 Name:		picKLE
 Version:	0.3
 Release:	0.1
@@ -25,11 +25,11 @@ picKLE is an image gallery system created in PHP. It generates
 thumbnails and resampled images on the fly and caches them. It is made
 to be extremely simple to install/configure.
 
-%description -l pl
+%description -l pl.UTF-8
 picKLE jest to system galeriowy oparty na PHP. Generuje w locie
-miniaturki i pomniejszone zdjêcia, po czym zapisuje je w katalogu
-cache. Dodatkowo wyró¿nia siê bardzo ³atw± instalacj± oraz
-konfiguracj±.
+miniaturki i pomniejszone zdjÄ™cia, po czym zapisuje je w katalogu
+cache. Dodatkowo wyrÃ³Å¼nia siÄ™ bardzo Å‚atwÄ… instalacjÄ… oraz
+konfiguracjÄ….
 
 %prep
 %setup -q
